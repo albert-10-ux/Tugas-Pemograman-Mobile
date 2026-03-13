@@ -5,7 +5,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       {/* SECTION FOTO */} 
       <Image 
-        source={{ uri: "https://raw.githubusercontent.com/evtaindra/my-app-test/refs/heads/master/assets/images/gambar22.png" }} 
+        source={require('../../assets/images/imagesatu.jpg')} 
         
          //  bisa juga menggunakan local image
         //  image: source={require('../assets/images/gambar22.png')}
@@ -14,14 +14,13 @@ export default function HomeScreen() {
       />
 
       {/* SECTION IDENTITAS */}
-      <Text style={styles.name}>Super Frince</Text>
-      <Text style={styles.nim}>King Midlaner</Text>
+      <Text style={styles.name}>Albert Gea</Text>
+      <Text style={styles.nim}>243303621286</Text>
 
       {/* SECTION BIO */}
       <View style={styles.bioCard}>
         <Text style={styles.bioText}>
-          🚀 Currently mastering React Native SDK 50. 
-          Goal: Build goated apps!
+        Kebanggaan terbesar bukanlah tidak pernah gagal, tapi bangkit kembali setiap kali kita jatuh.
         </Text>
       </View>
     </View>
