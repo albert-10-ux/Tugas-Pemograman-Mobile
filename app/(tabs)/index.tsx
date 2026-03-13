@@ -5,7 +5,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       {/* SECTION FOTO */} 
       <Image 
-        source={require('../../assets/images/imagesatu.jpg')} 
+        source={require('./assets/image/imagesatu.jpg')} 
         
          //  bisa juga menggunakan local image
         //  image: source={require('../assets/images/gambar22.png')}
